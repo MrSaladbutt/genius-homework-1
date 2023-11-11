@@ -10,6 +10,10 @@
 /* Base */
 body {
   color: var(--color-primary);
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 21.09px;
 }
 
 ul {
@@ -23,6 +27,10 @@ ul {
   background-color: var(--color-secondary);
   border: 2px solid var(--color-secondary);
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .button:hover {
@@ -34,33 +42,56 @@ ul {
 /* Link */
 .link-header {
   color: var(--color-primary);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
 
 .link-header:hover {
   color: var(--color-secondary);
+  font-weight: 700;
 }
 
 .link-footer {
   color: var(--color-light);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
 }
 
 /* Hero */
 .hero-title {
   color: var(--color-secondary);
+  text-transform: capitalize;
+  font-size: 140px;
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  line-height: 114px;
 }
 
 .hero-text {
   color: var(--color-primary);
 }
 
+.text-main {
+  color: var(--color-primary);
+  font-size: 18px;
+}
+
 .consultation {
   color: var(--color-darker);
+  font-size: 12px;
+  line-height: 18px;
 }
 
 /* Section */
 
 .section-title {
   color: var(--color-primary);
+  font-family: 'Play', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 74.05px;
 }
 .section-title .accent {
   color: var(--color-secondary);
@@ -68,16 +99,36 @@ ul {
 
 .section-text {
   color: var(--color-primary);
+  line-height: 38px;
+}
+
+p .accent {
+  font-weight: 600;
 }
 
 .why {
   color: var(--color-most-dark);
+  line-height: 24px;
 }
 
 .procedures {
   color: var(--color-light);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
 }
 
 .copyr {
   color: var(--color-dark);
+  font-size: 13px;
+  line-height: 15.23px;
+}
+
+.privat-policy {
+  color: var(--color-light);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
 }
