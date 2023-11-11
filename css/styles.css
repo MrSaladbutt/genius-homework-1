@@ -1,0 +1,83 @@
+:root {
+  --color-primary: #011c44;
+  --color-secondary: #2b7fff;
+  --color-light: #ffffff;
+  --color-most-dark: #000000;
+  --color-darker: #4a4a4a;
+  --color-dark: #747272;
+}
+
+/* Base */
+body {
+  color: var(--color-primary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-light);
+  border-radius: 32px;
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-radius: 32px;
+}
+
+/* Link */
+.link-header {
+  color: var(--color-primary);
+}
+
+.link-header:hover {
+  color: var(--color-secondary);
+}
+
+.link-footer {
+  color: var(--color-light);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--color-secondary);
+}
+
+.hero-text {
+  color: var(--color-primary);
+}
+
+.consultation {
+  color: var(--color-darker);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--color-primary);
+}
+.section-title .accent {
+  color: var(--color-secondary);
+}
+
+.section-text {
+  color: var(--color-primary);
+}
+
+.why {
+  color: var(--color-most-dark);
+}
+
+.procedures {
+  color: var(--color-light);
+}
+
+.copyr {
+  color: var(--color-dark);
+}
